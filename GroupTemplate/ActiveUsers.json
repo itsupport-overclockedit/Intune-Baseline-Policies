@@ -1,0 +1,5 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "44f71e0e-b5f3-4566-a9bc-bed0ada11bc2",
+  "JSON": "{\"Displayname\":\"Active-Users\",\"Description\":\"Active-Users\",\"groupType\":\"dynamic\",\"MembershipRules\":\"(user.accountEnabled -eq true) and (user.assignedPlans -any (assignedPlan.service -eq \\\"SCO\\\" -and assignedPlan.capabilityStatus -eq \\\"Enabled\\\")) -and (user.userPrincipalName -notMatch \\\"^enrollment.*\\\")\",\"allowExternal\":null,\"username\":\"Active-Users\",\"GUID\":\"44f71e0e-b5f3-4566-a9bc-bed0ada11bc2\"}"
+}
